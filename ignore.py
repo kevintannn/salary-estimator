@@ -13,3 +13,7 @@ for word in words:
 
 for i in range(290, 300):
     print(words[i], end=" ")
+print()
+
+title = "Jr.Programmer"
+print(title if "jr" in title.lower() else "na")
