@@ -57,3 +57,23 @@ Few highlights from pivot tables:
 ![image](https://user-images.githubusercontent.com/48116781/174987997-e1d77ee7-13d8-4ab7-bd9b-5dc48644dcac.png)
 ![image](https://user-images.githubusercontent.com/48116781/174987630-2a244070-65db-4186-bb6d-b92357ed67dd.png)
 ![image](https://user-images.githubusercontent.com/48116781/174987767-c3cd1e48-f861-470e-a53c-37bc9d92deb5.png)
+
+## Model Building
+Before building the model, I first transformed categorical datas into dummy variables.  
+After that, I split the data into train set and test set, with a test size of 20%.
+
+I decided to try three different regression model and evaluated them using Mean Absolute Error.  
+Using Mean Absolute Error is relatively easy to interpret and pressing down the influence of outliers.
+
+The three different models:
+* **Linear Regression** - Baseline for the model
+* **Lasso Regression** - Due to the dataset has a large amount of categorical variable, I think it will be good to use a normalized regression
+* **Random Forest** - With the same reason as Lasso, I think it will be a good fit.
+
+## Model Performance
+Random Forest model performs way better than the other two models.
+* **Random Forest**: MAE = 11.65
+* **Linear Regression**: MAE = 20.02
+* **Lasso**: MAE = 21.29
+
+## Productionize Model
