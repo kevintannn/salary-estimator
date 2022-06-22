@@ -4,7 +4,7 @@ A data science project to estimate salary of Data Science jobs.
 ## Code and Resources Used
 **Python Version**: 3.7  
 **Packages**: pandas, numpy, matplotlib, sklearn, seaborn, flask, json, pickle  
-**Python Requirements**: pip install -r requirements.txt  
+**Python Requirements**: `pip install -r requirements.txt`  
 **Flask Productionize Article**: https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2  
 
 ## Dataset
@@ -34,20 +34,20 @@ Perform data cleaning on collected dataset.
 * Created a column to describe if the company location is the same as its headquarter
 * Converted founded date into company age
 * Get job keyword from job description:
-..* Python
-..* R
-..* AWS
-..* Spark
-..* Excel
+  - Python
+  - R
+  - AWS
+  - Spark
+  - Excel
 * Created a column for simplified job title:
-..* Data Scientist
-..* Data Engineer
-..* MLE
-..* Analyst
-..* Manager
+  - Data Scientist
+  - Data Engineer
+  - MLE
+  - Analyst
+  - Manager
 * Created a column for job seniority:
-..* Senior
-..* Junior
+  - Senior
+  - Junior
 * Created a column for job description length
 * Created a column for company competitors count
 
@@ -77,3 +77,4 @@ Random Forest model performs way better than the other two models.
 * **Lasso**: MAE = 21.29
 
 ## Productionize Model
+Built FlaskAPI (not hosted) endpoint that takes in a request with a list of values and return an estimated salary.
