@@ -54,6 +54,6 @@ Perform data cleaning on collected dataset.
 ## Exploratory Data Analysis
 Observed some data properties, distributions, and value counts for various categorical data.  
 Few highlights from pivot tables:  
-![image](https://user-images.githubusercontent.com/48116781/174987450-5ff35cac-f7e5-4f05-bae7-083dc471d0ff.png)
+![image](https://user-images.githubusercontent.com/48116781/174987997-e1d77ee7-13d8-4ab7-bd9b-5dc48644dcac.png)
 ![image](https://user-images.githubusercontent.com/48116781/174987630-2a244070-65db-4186-bb6d-b92357ed67dd.png)
 ![image](https://user-images.githubusercontent.com/48116781/174987767-c3cd1e48-f861-470e-a53c-37bc9d92deb5.png)
