@@ -8,7 +8,7 @@ A data science project to estimate salary of Data Science jobs.
 **Flask Productionize Article**: https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2  
 
 ## Dataset
-Dataset are taken from glassdoor.com and for each job, we have information on:
+Dataset is collected from glassdoor.com and for each job, we have information on:
 * Job Title
 * Salary Estimate
 * Job Description
@@ -25,6 +25,7 @@ Dataset are taken from glassdoor.com and for each job, we have information on:
 * Competitors
 
 ## Data Cleaning
+Perform data cleaning on collected dataset.
 * Parsed salary data into integer
 * Created columns for employer provided salary and hourly wages
 * Removed rows with no salary
@@ -48,3 +49,11 @@ Dataset are taken from glassdoor.com and for each job, we have information on:
 ..* Senior
 ..* Junior
 * Created a column for job description length
+* Created a column for company competitors count
+
+## Exploratory Data Analysis
+Observed some data properties, distributions, and value counts for various categorical data.  
+Few highlights from pivot tables:  
+![image](https://user-images.githubusercontent.com/48116781/174987450-5ff35cac-f7e5-4f05-bae7-083dc471d0ff.png)
+![image](https://user-images.githubusercontent.com/48116781/174987630-2a244070-65db-4186-bb6d-b92357ed67dd.png)
+![image](https://user-images.githubusercontent.com/48116781/174987767-c3cd1e48-f861-470e-a53c-37bc9d92deb5.png)
